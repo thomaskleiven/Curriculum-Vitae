@@ -1,0 +1,7 @@
+# Compiled source #
+###################
+*.jpg
+*.aux
+*.log
+*.out
+*.png
