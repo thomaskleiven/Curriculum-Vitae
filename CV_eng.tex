@@ -25,11 +25,12 @@
 \usepackage{longtable}
 
 \setlength{\voffset}{-45pt}
-\setlength{\textheight}{730pt}
+\setlength{\textheight}{740pt}
 \setlength{\topmargin}{-5pt}
 \setlength{\headsep}{0pt}
 \setlength{\textwidth}{500pt}
 \setlength{\hoffset}{-70pt}
+\setlength{\parskip}{3pt}
 %\usepackage{color}
 
 %%%%
@@ -54,9 +55,11 @@
 %% INSERT PICTURE
 %%%%
 \begin{figure}[h]
-\begin{subfigure}[b]{2.7cm}
-\includegraphics[scale = 0.064]{bilde_1.jpg}
-\end{subfigure}
+  \begin{subfigure}[b]{2.6cm}
+  \fboxrule=0.2pt%border thickness
+  \fboxsep=0.9mm%padding thickness
+  \fcolorbox{cyan}{white}{\includegraphics[scale = 0.064]{bilde_1.jpg}}
+  \end{subfigure}
 \begin{subfigure}[b]{9cm}
    	\textsc{\bfseries{\Huge{Thomas Kleiven}}} \\[5pt]
    	\textsc{\Large{Engineering and ICT}} \\[5pt]
@@ -69,9 +72,9 @@
 %%%%
 \begin{table}[h]
 \noindent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
-Edgar B. Schieldropsvei 100B & 19. June 1994 \\
-7033 Trondheim & \includegraphics[scale=0.042]{phone.png}  +47 930 47 147\\
-Norge
+26 Grotto Road & 19. June 1994 \\
+Rondebosch, Cape Town & \includegraphics[scale=0.042]{phone.png}  +27 083 528 0773\\
+South Africa
  & \includegraphics[scale=0.013]{mail.png} \href{mailto:thomas@isvik.no}{{thomas@isvik.no}} \\
  & \includegraphics[scale=0.020, trim={2mm 28mm 2mm 2mm}, clip]{linkedin_logo.png} \href{https://no.linkedin.com/in/thomaskleiven}{{thomaskleiven}} \\
  & \includegraphics[scale=0.013, trim={0mm 0mm 75mm 0mm}, clip]{github.png} \href{https://github.com/thomaskleiven}{{thomaskleiven}}
@@ -80,40 +83,40 @@ Norge
 
 \section*{Education}
 \begin{tabular}{L!{\VRule}R}
-2014 - & {\bf Master of Science, Engineering and ICT, Norwegian University of Science and Technology, Gløshaugen, Trondheim} \\
-  & {Specialisation in Product Development and Process Engineering. This line of study focus on the demand for engineers with both ICT expertise and an advanced engineering education}
-  \\
-  \smallskip 2013 - 2014 & {\bf \smallskip Military service with His Majesty the King`s Guard} \\
-    & {His Majesty the King's Guard Drill Team of Norway} \\
-    \smallskip 2010-2013 & {\bf \smallskip Skeisvang vgs, Haugesund}  \\
+ 2014 - & {\bf Master of Science, Engineering and ICT, Norwegian University of Science and Technology, Gløshaugen, Trondheim} \\
+  & {Specialisation in Product Development and Process Engineering. This line of study focus on the demand for engineers with both ICT expertise and an advanced engineering education} \\
+  \smallskip 2017 - & {\bf \smallskip Study Abroad, Statistical Sciences, University of Cape Town,\newline Upper Campus, Western Cape Town} \\
+    & {Enrolled at the Faculty of Statistical Sciences. Primarily focusing on Machine Learning, Simulation and Optimization} \\
+    \smallskip 2010 - 2013 & {\bf \smallskip Skeisvang vgs, Haugesund}
 \end{tabular}
 
 \section*{Work Experience}
-\begin{tabular}{L!{\VRule}R} 2016 & {\bf Statoil ASA - Summer Intern}
+\begin{tabular}{L!{\VRule}R} 2016 - 2017 & {\bf Statoil ASA - Summer Intern}
 \\
-& {Implemented an application in Java using JavaFX for GUI in addition to assisting \newline operators at the facility}
+& {Analyzing data regarding maintenance of equipment at the plant, in addition to \newline sorting GBs of unstructured data using Python}
 \\
+\smallskip 2013 - 2014 & {\bf \smallskip Military service with His Majesty the King's Guard} \\
+  & {His Majesty the King's Guard Drill Team of Norway} \\
 \smallskip 2013 - 2016 & {\bf \smallskip Møbelringen Math. Lande AS} \\
 & {Temporary employment - Storage Worker} \\
-\smallskip 2008 - 2013 & {\bf \smallskip Maintainer at Isvik Helse AS}  \\
-& {Temporary employment - Performed preventative and predictive maintenance on buildings and facilities}
+%\smallskip 2008 - 2013 & {\bf \smallskip Maintainer at Isvik Helse AS}  \\
+%& {Temporary employment - Performed preventative and predictive maintenance on buildings and facilities}
 \end{tabular}
 
 
-\section*{Computer skills}
+\section*{Computer Skills}
 \begin{tabular}{L!{\VRule}R}
- OS & Windows, Macintosh , Linux\\
-Programming & MATLAB, Java, C++, Python\\
-Word processing & MS Office, \LaTeX \\
-PLM Software & Siemens NX \\
-ERP Systems & SAP, Microsoft Dynamics AX \\
-Version Control & Git
+OS & Windows, Macintosh, Linux \\
+Programming & MATLAB, JavaScript, Java, C++, R, Python\\
+Text & MS Office, \LaTeX \\
+VCS & Git
 \end{tabular}
 
-\section*{Voluntary work}
+\section*{Volunteer Experience}
 \begin{tabular}{L!{\VRule}R}
-2015 - 2017 & {\bf Chairman of the Board, NTNUI Triatlon} \\
-& In charge of the daily administrative matters, in addition to planning the first Norwegian Student Championship in triathlon. During these last two years the number of members has more than doubled itself and we are now more than 70 members.
+2015 - 2017 & {\bf Chairman of the Board, NTNUI Triathlon} \\
+& In charge of the daily administrative matters, in addition to planning the first Norwegian Student Championship in triathlon.
+The club experienced a massive growth during the recent years, having more than 70 members.
 \end{tabular}
 
 \section*{Languages}
